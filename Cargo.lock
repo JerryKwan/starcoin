@@ -3274,9 +3274,9 @@ dependencies = [
 
 [[package]]
 name = "hyper"
-version = "0.14.18"
+version = "0.14.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b26ae0a80afebe130861d90abf98e3814a4f28a4c6ffeb5ab8ebb2be311e0ef2"
+checksum = "02c929dc5c39e335a03c405292728118860721b10190d98c2a0f0efd5baafbac"
 dependencies = [
  "bytes 1.2.0",
  "futures-channel",
@@ -3316,7 +3316,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d6183ddfa99b85da61a140bea0efc93fdf56ceaa041b37d553518030827f9905"
 dependencies = [
  "bytes 1.2.0",
- "hyper 0.14.18",
+ "hyper 0.14.20",
  "native-tls",
  "tokio 1.17.0",
  "tokio-native-tls",
@@ -3652,7 +3652,7 @@ checksum = "d2b99d4207e2a04fb4581746903c2bb7eb376f88de9c699d0f3e10feeac0cd3a"
 dependencies = [
  "derive_more",
  "futures 0.3.21",
- "hyper 0.14.18",
+ "hyper 0.14.20",
  "hyper-tls 0.5.0",
  "jsonrpc-core 18.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "jsonrpc-pubsub 18.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -3771,7 +3771,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e1dea6e07251d9ce6a552abfb5d7ad6bc290a4596c8dcc3d795fae2bbdc1f3ff"
 dependencies = [
  "futures 0.3.21",
- "hyper 0.14.18",
+ "hyper 0.14.20",
  "jsonrpc-core 18.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "jsonrpc-server-utils 18.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.16",
@@ -7717,7 +7717,7 @@ dependencies = [
  "h2 0.3.12",
  "http",
  "http-body 0.4.4",
- "hyper 0.14.18",
+ "hyper 0.14.20",
  "hyper-tls 0.5.0",
  "ipnet",
  "js-sys",
@@ -9512,7 +9512,7 @@ version = "1.11.11"
 dependencies = [
  "anyhow",
  "futures 0.3.21",
- "hyper 0.14.18",
+ "hyper 0.14.20",
  "prometheus",
  "psutil",
  "serde_json",
