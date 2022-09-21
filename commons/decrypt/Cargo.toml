@@ -6,7 +6,7 @@ name = "starcoin-decrypt"
 version = "1.12.4"
 
 [dependencies]
-aes-gcm = "0.9"
+aes-gcm = "0.10"
 anyhow = "1.0.41"
 byteorder = "1.4"
 hmac = "0.12.1"
