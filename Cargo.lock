@@ -1941,23 +1941,6 @@ dependencies = [
 
 [[package]]
 name = "determinator"
-version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7109a871b855b23d2b08d8e0cef5c005b9946b5bd4c77cc24e040a7b65717fb9"
-dependencies = [
- "camino",
- "globset",
- "guppy 0.9.0",
- "itertools 0.10.3",
- "once_cell",
- "petgraph 0.5.1",
- "rayon",
- "serde 1.0.140",
- "toml",
-]
-
-[[package]]
-name = "determinator"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7d6cd961d655fa64c18f515cf6c2e4bd38deaeaa1a8c7d0142c18d750ef73d18"
@@ -2927,7 +2910,6 @@ dependencies = [
  "once_cell",
  "pathdiff 0.2.1",
  "petgraph 0.5.1",
- "rayon",
  "semver 0.11.0",
  "serde 1.0.140",
  "serde_json",
@@ -10674,7 +10656,7 @@ dependencies = [
  "chrono",
  "clap 3.2.15",
  "colored-diff",
- "determinator 0.4.0",
+ "determinator",
  "env_logger 0.9.0",
  "globset",
  "guppy 0.9.0",
@@ -11799,7 +11781,7 @@ version = "1.6.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675"
 dependencies = [
- "cfg-if 1.0.0",
+ "cfg-if 0.1.10",
  "static_assertions",
 ]
 
@@ -12573,7 +12555,7 @@ dependencies = [
  "chrono",
  "clap 3.2.15",
  "colored-diff",
- "determinator 0.7.0",
+ "determinator",
  "env_logger 0.8.4",
  "globset",
  "guppy 0.12.6",
@@ -12599,7 +12581,7 @@ source = "git+https://github.com/starcoinorg/move?rev=ae90a6d2453fcceebfc546d572
 dependencies = [
  "camino",
  "debug-ignore",
- "determinator 0.7.0",
+ "determinator",
  "guppy 0.12.6",
  "hex",
  "indoc",
