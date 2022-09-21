@@ -1200,16 +1200,6 @@ dependencies = [
 
 [[package]]
 name = "codespan"
-version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "52899426b69706219a1aaee2e95868fd01a0bd8006bb163f069578a0af5b5bb2"
-dependencies = [
- "serde 1.0.140",
- "unicode-segmentation",
-]
-
-[[package]]
-name = "codespan"
 version = "0.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3362992a0d9f1dd7c3d0e89e0ab2bb540b7a95fea8cd798090e758fda2899b5e"
@@ -5118,7 +5108,7 @@ dependencies = [
  "anyhow",
  "bcs",
  "clap 3.2.15",
- "codespan 0.11.1",
+ "codespan",
  "colored",
  "move-binary-format",
  "move-bytecode-source-map",
@@ -5137,7 +5127,7 @@ dependencies = [
  "anyhow",
  "bcs",
  "clap 3.2.15",
- "codespan 0.8.0",
+ "codespan",
  "colored",
  "move-binary-format",
  "move-bytecode-source-map",
@@ -5171,7 +5161,7 @@ version = "0.1.0"
 source = "git+https://github.com/starcoinorg/move?rev=ae90a6d2453fcceebfc546d572ca4f91da29b749#ae90a6d2453fcceebfc546d572ca4f91da29b749"
 dependencies = [
  "anyhow",
- "codespan 0.11.1",
+ "codespan",
  "codespan-reporting",
  "itertools 0.10.3",
  "log 0.4.17",
@@ -5268,7 +5258,7 @@ version = "0.1.0"
 source = "git+https://github.com/starcoinorg/move?rev=ae90a6d2453fcceebfc546d572ca4f91da29b749#ae90a6d2453fcceebfc546d572ca4f91da29b749"
 dependencies = [
  "anyhow",
- "codespan 0.11.1",
+ "codespan",
  "codespan-reporting",
  "internment",
  "itertools 0.10.3",
@@ -5378,7 +5368,7 @@ dependencies = [
  "async-trait",
  "atty",
  "clap 3.2.15",
- "codespan 0.11.1",
+ "codespan",
  "codespan-reporting",
  "futures 0.3.21",
  "hex",
@@ -5413,7 +5403,7 @@ source = "git+https://github.com/starcoinorg/move?rev=ae90a6d2453fcceebfc546d572
 dependencies = [
  "anyhow",
  "async-trait",
- "codespan 0.11.1",
+ "codespan",
  "codespan-reporting",
  "futures 0.3.21",
  "itertools 0.10.3",
@@ -5475,7 +5465,7 @@ name = "move-stackless-bytecode"
 version = "0.1.0"
 source = "git+https://github.com/starcoinorg/move?rev=ae90a6d2453fcceebfc546d572ca4f91da29b749#ae90a6d2453fcceebfc546d572ca4f91da29b749"
 dependencies = [
- "codespan 0.11.1",
+ "codespan",
  "codespan-reporting",
  "ethnum",
  "im",
