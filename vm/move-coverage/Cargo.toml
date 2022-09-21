@@ -16,7 +16,7 @@ bcs = "0.1.2"
 clap = {version = "3", features = ["derive"]}
 codespan = {version = "0.8.0", features = ["serialization"]}
 colored = "2.0.0"
-petgraph = "0.5.1"
+petgraph = "0.6.2"
 serde = {version = "1.0.130", default-features = false}
 
 move-binary-format = {git = "https://github.com/starcoinorg/move", rev = "ae90a6d2453fcceebfc546d572ca4f91da29b749"}
